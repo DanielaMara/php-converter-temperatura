@@ -6,7 +6,7 @@ $index = 0.0;
 
 if(is_numeric($celsius))
 {
-    $index = ConverterService::getIndex($celsius);
+    $index = ConverterService::convertToFahrenheit($celsius);
 }
 
 echo $index;
